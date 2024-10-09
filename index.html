@@ -1,5 +1,4 @@
 <html lang="en">
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +11,16 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background: url('https://news.samsung.com/mx/samsung-mexico-presenta-la-nueva-lavasecadora-bespoke-ai-laundry-combo
-https://news.samsung.com/mx/wp-content/themes/btr_newsroom/download.php?id=JqeAbuccQgCGjMAs8jTHeritXa%2B8xRko9OzCnT8j0zI%3D') no-repeat center center fixed;
-            background-size: cover;
+            background: linear-gradient(45deg, #a1c4fd, #c2e9fb, #a1c4fd, #c2e9fb);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
             font-family: 'Varela Round', sans-serif;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
 
         .content {
@@ -52,7 +57,10 @@ https://news.samsung.com/mx/wp-content/themes/btr_newsroom/download.php?id=JqeAb
     <div class="content">
         <h1>SAMSUNG</h1>
         <h2>Bespoke AI™ Laundry Front-load Washer & Dryer Heatpump</h2>
-        <h3>"If you want me to help, please click the bottom right corner!"</h3>
+        <h3>"If you want me to help, please click the bottom right corner!"<h3>
+        <div class="image-container">
+            <img src="0I8A7868.JPEG">
+        </div>
     </div>
             
    <script type="module">
